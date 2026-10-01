@@ -1,0 +1,17 @@
+{
+  "name": "library-management-system-rfid",
+  "version": "1.0.0",
+  "description": "Library Management System with RFID - B.Tech Database Systems Engineering Project",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "seed": "node scripts/seed.js",
+    "test": "cd backend && npm test"
+  },
+  "keywords": ["library", "rfid", "esp32", "database", "mongodb", "express", "react", "node"],
+  "author": "B.Tech Student",
+  "license": "MIT"
+}
